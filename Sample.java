@@ -6,6 +6,7 @@ import java.util.StringTokenizer;
 public class Sample {
 	private String test;
 	public String Info;
+
 	public String getFirstname(java.util.StringTokenizer strtok) {
 		//        boolean bTokens = strtok.hasMoreTokens();
 		//        if (strtok == null && strtok.length() != 0 || !strtok.isEmpty() || strtok.hasMoreTokens() && !bTokens && 0 <= strtok.getNumberOfTokens() || strtok.getA().getB() == null)
