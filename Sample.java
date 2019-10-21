@@ -27,6 +27,7 @@ public class Sample {
 
 		if (customer.length() == 0)
 			return -1;
+
 		if (since == null)
 			return -1;
 
