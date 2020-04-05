@@ -61,6 +61,8 @@ func (e *ConsoleExporter) ExportView(vd *view.Data) {
 			bold.Printf("sum=%-3v", v.Value)
 		case *view.LastValueData:
 			bold.Printf("last=%-3v", v.Value)
+		default:
+			boldRed.Printf("Error: invalid data type for row %s\n", row.Data)
 		}
 		faint.Print(" │ ")
 
